@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="G9y-r9-9Xp">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--SignupVC-->
+        <scene sceneID="qb8-6c-ho5">
+            <objects>
+                <viewController storyboardIdentifier="Signup" id="G9y-r9-9Xp" customClass="SignupVC" customModule="Fortune" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="msx-Lj-5ml">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f6U-ry-siY">
+                                <rect key="frame" x="182" y="433" width="50" height="30"/>
+                                <state key="normal" title="SignUp"/>
+                                <connections>
+                                    <action selector="signupTapped:" destination="G9y-r9-9Xp" eventType="touchUpInside" id="XGH-Jv-4Sv"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7lu-Es-Kpp">
+                                <rect key="frame" x="225" y="71" width="151" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="151" id="H21-EY-9To"/>
+                                    <constraint firstAttribute="height" constant="39" id="PEP-3s-pRd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pzd-mJ-ubb">
+                                <rect key="frame" x="184" y="503" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="OrU-pO-1dr"/>
+                                    <constraint firstAttribute="width" constant="46" id="hgW-jc-Coc"/>
+                                </constraints>
+                                <state key="normal" title="Stripe"/>
+                                <connections>
+                                    <action selector="stripeBtnTapped:" destination="G9y-r9-9Xp" eventType="touchUpInside" id="O1K-fH-XPA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gIY-F5-1GH"/>
+                        <color key="backgroundColor" red="0.96862745100000003" green="0.88235294119999996" blue="0.043137254899999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="f6U-ry-siY" firstAttribute="centerX" secondItem="msx-Lj-5ml" secondAttribute="centerX" id="857-bj-4k0"/>
+                            <constraint firstItem="f6U-ry-siY" firstAttribute="centerY" secondItem="msx-Lj-5ml" secondAttribute="centerY" id="93s-Py-5R0"/>
+                            <constraint firstItem="gIY-F5-1GH" firstAttribute="trailing" secondItem="7lu-Es-Kpp" secondAttribute="trailing" constant="38" id="R5m-HA-3FF"/>
+                            <constraint firstItem="Pzd-mJ-ubb" firstAttribute="top" secondItem="f6U-ry-siY" secondAttribute="bottom" constant="40" id="She-SG-bde"/>
+                            <constraint firstItem="Pzd-mJ-ubb" firstAttribute="centerX" secondItem="msx-Lj-5ml" secondAttribute="centerX" id="V4s-tB-bVj"/>
+                            <constraint firstItem="7lu-Es-Kpp" firstAttribute="top" secondItem="gIY-F5-1GH" secondAttribute="top" constant="27" id="nua-eN-eAj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="userNameLabel" destination="7lu-Es-Kpp" id="Z3r-t6-lvC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xrJ-u1-pOM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-424.63768115942031" y="191.51785714285714"/>
+        </scene>
+    </scenes>
+</document>
