@@ -39,7 +39,9 @@ class SignUp {
     func createUserInfo(uid: String, docDate: [String : Any],
                         failure: @escaping (String) -> Void,
                         success: @escaping () -> Void) {
-        Firestore.firestore().collection("users").document(uid).setData(docDate) { (error) in
+        
+        let ref = Firestore.firestore().collection("users")
+        ref.document(uid).setData(docDate) { (error) in
             if let error = error {
                 // ユーザー情報の登録失敗
                 log.debug("Error: Firestore")
