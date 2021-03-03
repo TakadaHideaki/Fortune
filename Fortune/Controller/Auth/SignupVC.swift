@@ -27,13 +27,13 @@ class SignupVC: UIViewController {
     }
     
     @IBAction func stripeBtnTapped(_ sender: Any) {
-        let customerId = "firestoreから取得"
-        let customerContext = STPCustomerContext(keyProvider: StripeProvider(customerId: customerId))
-        paymentContext = STPPaymentContext(customerContext: customerContext)
-        paymentContext!.delegate = self
-        paymentContext!.hostViewController = self
-        paymentContext!.paymentAmount = 5000
-        paymentContext!.presentPaymentOptionsViewController()
+//        let customerId = "firestoreから取得"
+//        let customerContext = STPCustomerContext(keyProvider: StripeProvider(customerId: customerId))
+//        paymentContext = STPPaymentContext(customerContext: customerContext)
+//        paymentContext!.delegate = self
+//        paymentContext!.hostViewController = self
+//        paymentContext!.paymentAmount = 5000
+//        paymentContext!.presentPaymentOptionsViewController()
     }
     
     

@@ -9,8 +9,6 @@ class ModalViewController: UIViewController {
     @IBOutlet weak var mailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
 
-    
-    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         mailTextField.text = ""
@@ -43,7 +41,7 @@ class ModalViewController: UIViewController {
         self.signup?.signUp(email: e, pass: p, name: un, failure: { (error) in
             self.alert(title: "エラー", msg: error, action: "OK")
         }) {
-            log.debug("Auth_All_Clear")
+            log.debug("Auth_All_OK")
             let vc = self.presentingViewController as! SignupVC
             vc.userName = un
             self.dismiss(animated: true, completion: nil)
