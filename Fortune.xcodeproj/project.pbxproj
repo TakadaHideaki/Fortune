@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		66666C3D20F50805E04B7C90 /* Pods_Fortune.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A16E3B479AB70BB5CAB42B6 /* Pods_Fortune.framework */; };
+		8C4A476725F2705500D340C3 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A476625F2705500D340C3 /* CustomTextField.swift */; };
+		8C4A476825F2705500D340C3 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A476625F2705500D340C3 /* CustomTextField.swift */; };
+		8C4A476925F2705500D340C3 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A476625F2705500D340C3 /* CustomTextField.swift */; };
 		8C4ABDC325E5FC1600F74043 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4ABDC225E5FC1600F74043 /* SignupVC.swift */; };
 		8C4ABDC425E5FC1600F74043 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4ABDC225E5FC1600F74043 /* SignupVC.swift */; };
 		8C4ABDC525E5FC1600F74043 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4ABDC225E5FC1600F74043 /* SignupVC.swift */; };
@@ -86,6 +89,9 @@
 		7B79E2F9F67624C18A1B3C96 /* Pods_Fortune_FortuneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fortune_FortuneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C3478D425E6A5EF0086DDDB /* FortuneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortuneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C3478D525E6A5EF0086DDDB /* FortuneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortuneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4A475D25F0E3E100D340C3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		8C4A476125F0E3E400D340C3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		8C4A476625F2705500D340C3 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		8C4ABD8625E54C1900F74043 /* Fortune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fortune.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4ABDC225E5FC1600F74043 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
 		8C4ABDCC25E5FC3800F74043 /* Signup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Signup.storyboard; sourceTree = "<group>"; };
@@ -156,6 +162,15 @@
 				0CE63CA6D3C27019DBEF3F67 /* Pods-FortuneTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		8C4A476525F2701400D340C3 /* Veiw */ = {
+			isa = PBXGroup;
+			children = (
+				8C4A476625F2705500D340C3 /* CustomTextField.swift */,
+			);
+			name = Veiw;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		8C4ABDC025E5FB7C00F74043 /* Auth */ = {
@@ -260,6 +275,7 @@
 				8CB0FDFC25E0AD6E00C771A2 /* AppDelegate.swift */,
 				8CB0FDFE25E0AD6E00C771A2 /* SceneDelegate.swift */,
 				8C79757625E24240001AE54D /* Controller */,
+				8C4A476525F2701400D340C3 /* Veiw */,
 				8C88663825EA096100A2168C /* Model */,
 				8C79757825E24253001AE54D /* Util */,
 				8C88662D25E9DF1800A2168C /* Ex */,
@@ -392,6 +408,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 8CB0FDF025E0AD6E00C771A2;
 			productRefGroup = 8CB0FDF025E0AD6E00C771A2;
@@ -583,6 +600,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C4A476725F2705500D340C3 /* CustomTextField.swift in Sources */,
 				8CE0294725E8B43200A7317D /* ModalViewController.swift in Sources */,
 				8CE0294025E8B30700A7317D /* CustomPresentationController.swift in Sources */,
 				8C4ABDC325E5FC1600F74043 /* SignupVC.swift in Sources */,
@@ -603,6 +621,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C4A476825F2705500D340C3 /* CustomTextField.swift in Sources */,
 				8C79753D25E23FFA001AE54D /* StripeCostomerRepository.swift in Sources */,
 				8C4ABDC425E5FC1600F74043 /* SignupVC.swift in Sources */,
 				8CE0294125E8B30700A7317D /* CustomPresentationController.swift in Sources */,
@@ -622,6 +641,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C4A476925F2705500D340C3 /* CustomTextField.swift in Sources */,
 				8C79753E25E23FFA001AE54D /* StripeCostomerRepository.swift in Sources */,
 				8C4ABDC525E5FC1600F74043 /* SignupVC.swift in Sources */,
 				8CE0294225E8B30700A7317D /* CustomPresentationController.swift in Sources */,
@@ -657,6 +677,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8CB0FE0325E0AD6E00C771A2 /* Base */,
+				8C4A475D25F0E3E100D340C3 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -665,6 +686,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8CB0FE0825E0AD7000C771A2 /* Base */,
+				8C4A476125F0E3E400D340C3 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -676,6 +698,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -737,6 +760,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

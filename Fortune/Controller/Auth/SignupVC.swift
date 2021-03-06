@@ -5,6 +5,7 @@ class SignupVC: UIViewController {
     
     @IBOutlet weak var userNameLabel: UILabel!
     var userName = "ゲスト様"
+
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(false)
@@ -17,7 +18,7 @@ class SignupVC: UIViewController {
     }
         
     @IBAction func signupTapped(_ sender: Any) {
-
+        
         let sb = UIStoryboard(name: "modal", bundle: nil)
         let modalVC = sb.instantiateViewController(withIdentifier: "modal") 
         modalVC.modalPresentationStyle = .custom //.custom →UIPresentationController
@@ -25,6 +26,8 @@ class SignupVC: UIViewController {
         present(modalVC, animated: true, completion: nil)
      
     }
+    
+   
     
     @IBAction func stripeBtnTapped(_ sender: Any) {
 //        let customerId = "firestoreから取得"
