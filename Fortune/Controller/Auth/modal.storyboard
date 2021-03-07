@@ -61,10 +61,6 @@
                                     <action selector="signupBtnTapped:" destination="9hs-fN-Dfs" eventType="touchUpInside" id="W2T-cf-QC3"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eye.slash" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="zvX-jd-0ug">
-                                <rect key="frame" x="87" y="537" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="D7f-ZO-MKk"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -89,7 +85,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="eye.slash" catalog="system" width="128" height="86"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

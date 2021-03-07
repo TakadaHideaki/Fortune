@@ -11,6 +11,21 @@
 		8C4A476725F2705500D340C3 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A476625F2705500D340C3 /* CustomTextField.swift */; };
 		8C4A476825F2705500D340C3 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A476625F2705500D340C3 /* CustomTextField.swift */; };
 		8C4A476925F2705500D340C3 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A476625F2705500D340C3 /* CustomTextField.swift */; };
+		8C4A477325F323D800D340C3 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4A477225F323D800D340C3 /* Profile.storyboard */; };
+		8C4A477425F323D800D340C3 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4A477225F323D800D340C3 /* Profile.storyboard */; };
+		8C4A477525F323D800D340C3 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4A477225F323D800D340C3 /* Profile.storyboard */; };
+		8C4A477D25F323FA00D340C3 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A477C25F323FA00D340C3 /* ProfileVC.swift */; };
+		8C4A477E25F323FA00D340C3 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A477C25F323FA00D340C3 /* ProfileVC.swift */; };
+		8C4A477F25F323FA00D340C3 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A477C25F323FA00D340C3 /* ProfileVC.swift */; };
+		8C4A478725F37ACC00D340C3 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A478625F37ACC00D340C3 /* CustomView.swift */; };
+		8C4A478825F37ACC00D340C3 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A478625F37ACC00D340C3 /* CustomView.swift */; };
+		8C4A478925F37ACC00D340C3 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A478625F37ACC00D340C3 /* CustomView.swift */; };
+		8C4A478E25F38A6A00D340C3 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A478D25F38A6A00D340C3 /* RoundBtn.swift */; };
+		8C4A478F25F38A6A00D340C3 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A478D25F38A6A00D340C3 /* RoundBtn.swift */; };
+		8C4A479025F38A6A00D340C3 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A478D25F38A6A00D340C3 /* RoundBtn.swift */; };
+		8C4A479525F45B3A00D340C3 /* PlaceHolderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A479425F45B3A00D340C3 /* PlaceHolderTextView.swift */; };
+		8C4A479625F45B3A00D340C3 /* PlaceHolderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A479425F45B3A00D340C3 /* PlaceHolderTextView.swift */; };
+		8C4A479725F45B3A00D340C3 /* PlaceHolderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A479425F45B3A00D340C3 /* PlaceHolderTextView.swift */; };
 		8C4ABDC325E5FC1600F74043 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4ABDC225E5FC1600F74043 /* SignupVC.swift */; };
 		8C4ABDC425E5FC1600F74043 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4ABDC225E5FC1600F74043 /* SignupVC.swift */; };
 		8C4ABDC525E5FC1600F74043 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4ABDC225E5FC1600F74043 /* SignupVC.swift */; };
@@ -92,6 +107,11 @@
 		8C4A475D25F0E3E100D340C3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		8C4A476125F0E3E400D340C3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		8C4A476625F2705500D340C3 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		8C4A477225F323D800D340C3 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		8C4A477C25F323FA00D340C3 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		8C4A478625F37ACC00D340C3 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		8C4A478D25F38A6A00D340C3 /* RoundBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		8C4A479425F45B3A00D340C3 /* PlaceHolderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolderTextView.swift; sourceTree = "<group>"; };
 		8C4ABD8625E54C1900F74043 /* Fortune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fortune.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4ABDC225E5FC1600F74043 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
 		8C4ABDCC25E5FC3800F74043 /* Signup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Signup.storyboard; sourceTree = "<group>"; };
@@ -168,9 +188,21 @@
 			isa = PBXGroup;
 			children = (
 				8C4A476625F2705500D340C3 /* CustomTextField.swift */,
+				8C4A478625F37ACC00D340C3 /* CustomView.swift */,
+				8C4A478D25F38A6A00D340C3 /* RoundBtn.swift */,
+				8C4A479425F45B3A00D340C3 /* PlaceHolderTextView.swift */,
 			);
 			name = Veiw;
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		8C4A477125F323B900D340C3 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8C4A477C25F323FA00D340C3 /* ProfileVC.swift */,
+				8C4A477225F323D800D340C3 /* Profile.storyboard */,
+			);
+			name = Profile;
 			sourceTree = "<group>";
 		};
 		8C4ABDC025E5FB7C00F74043 /* Auth */ = {
@@ -196,6 +228,7 @@
 		8C79757625E24240001AE54D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8C4A477125F323B900D340C3 /* Profile */,
 				8C4ABDC025E5FB7C00F74043 /* Auth */,
 				8C7975C925E5008D001AE54D /* Payment */,
 			);
@@ -432,6 +465,7 @@
 				8C79753525E0BCC1001AE54D /* GoogleService-Info.plist in Resources */,
 				8CB0FE0625E0AD7000C771A2 /* Assets.xcassets in Resources */,
 				8C4ABDCD25E5FC3800F74043 /* Signup.storyboard in Resources */,
+				8C4A477325F323D800D340C3 /* Profile.storyboard in Resources */,
 				8CB0FE0425E0AD6E00C771A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +476,7 @@
 			files = (
 				8CE0295925E8B4AA00A7317D /* modal.storyboard in Resources */,
 				8C4ABDCE25E5FC3800F74043 /* Signup.storyboard in Resources */,
+				8C4A477425F323D800D340C3 /* Profile.storyboard in Resources */,
 				8C79753625E0BCC1001AE54D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,6 +487,7 @@
 			files = (
 				8CE0295A25E8B4AA00A7317D /* modal.storyboard in Resources */,
 				8C4ABDCF25E5FC3800F74043 /* Signup.storyboard in Resources */,
+				8C4A477525F323D800D340C3 /* Profile.storyboard in Resources */,
 				8C79753725E0BCC1001AE54D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -600,10 +636,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C4A477D25F323FA00D340C3 /* ProfileVC.swift in Sources */,
+				8C4A478725F37ACC00D340C3 /* CustomView.swift in Sources */,
 				8C4A476725F2705500D340C3 /* CustomTextField.swift in Sources */,
 				8CE0294725E8B43200A7317D /* ModalViewController.swift in Sources */,
 				8CE0294025E8B30700A7317D /* CustomPresentationController.swift in Sources */,
+				8C4A478E25F38A6A00D340C3 /* RoundBtn.swift in Sources */,
 				8C4ABDC325E5FC1600F74043 /* SignupVC.swift in Sources */,
+				8C4A479525F45B3A00D340C3 /* PlaceHolderTextView.swift in Sources */,
 				8C88662F25E9E06900A2168C /* ScrollKeyboard.swift in Sources */,
 				8C79753C25E23FFA001AE54D /* StripeCostomerRepository.swift in Sources */,
 				8C88668F25EA28B000A2168C /* SignUp.swift in Sources */,
@@ -621,14 +661,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C4A478825F37ACC00D340C3 /* CustomView.swift in Sources */,
 				8C4A476825F2705500D340C3 /* CustomTextField.swift in Sources */,
 				8C79753D25E23FFA001AE54D /* StripeCostomerRepository.swift in Sources */,
+				8C4A477E25F323FA00D340C3 /* ProfileVC.swift in Sources */,
 				8C4ABDC425E5FC1600F74043 /* SignupVC.swift in Sources */,
+				8C4A478F25F38A6A00D340C3 /* RoundBtn.swift in Sources */,
 				8CE0294125E8B30700A7317D /* CustomPresentationController.swift in Sources */,
 				8C7975C425E50048001AE54D /* PaymentVC.swift in Sources */,
 				8CB0FE1425E0AD7000C771A2 /* FortuneTests.swift in Sources */,
 				8C7975BA25E24E14001AE54D /* StripeAPIClient.swift in Sources */,
 				8CE0294825E8B43200A7317D /* ModalViewController.swift in Sources */,
+				8C4A479625F45B3A00D340C3 /* PlaceHolderTextView.swift in Sources */,
 				8C88663025E9E06900A2168C /* ScrollKeyboard.swift in Sources */,
 				8C8866A025EA84A700A2168C /* Ex.swift in Sources */,
 				8C88664C25EA1D0900A2168C /* Alert.swift in Sources */,
@@ -641,14 +685,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C4A478925F37ACC00D340C3 /* CustomView.swift in Sources */,
 				8C4A476925F2705500D340C3 /* CustomTextField.swift in Sources */,
 				8C79753E25E23FFA001AE54D /* StripeCostomerRepository.swift in Sources */,
+				8C4A477F25F323FA00D340C3 /* ProfileVC.swift in Sources */,
 				8C4ABDC525E5FC1600F74043 /* SignupVC.swift in Sources */,
+				8C4A479025F38A6A00D340C3 /* RoundBtn.swift in Sources */,
 				8CE0294225E8B30700A7317D /* CustomPresentationController.swift in Sources */,
 				8C7975C525E50048001AE54D /* PaymentVC.swift in Sources */,
 				8CB0FE1F25E0AD7000C771A2 /* FortuneUITests.swift in Sources */,
 				8C7975BB25E24E14001AE54D /* StripeAPIClient.swift in Sources */,
 				8CE0294925E8B43200A7317D /* ModalViewController.swift in Sources */,
+				8C4A479725F45B3A00D340C3 /* PlaceHolderTextView.swift in Sources */,
 				8C88663125E9E06900A2168C /* ScrollKeyboard.swift in Sources */,
 				8C8866A125EA84A700A2168C /* Ex.swift in Sources */,
 				8C88664D25EA1D0900A2168C /* Alert.swift in Sources */,

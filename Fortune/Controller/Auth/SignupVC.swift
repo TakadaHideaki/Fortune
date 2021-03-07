@@ -30,6 +30,14 @@ class SignupVC: UIViewController {
    
     
     @IBAction func stripeBtnTapped(_ sender: Any) {
+        
+        let sb = UIStoryboard(name: "Profile", bundle: nil)
+        let modalVC = sb.instantiateViewController(withIdentifier: "Profile")
+        modalVC.modalPresentationStyle = .custom //.custom →UIPresentationController
+        modalVC.transitioningDelegate = self
+        present(modalVC, animated: true, completion: nil)
+        
+        
 //        let customerId = "firestoreから取得"
 //        let customerContext = STPCustomerContext(keyProvider: StripeProvider(customerId: customerId))
 //        paymentContext = STPPaymentContext(customerContext: customerContext)
