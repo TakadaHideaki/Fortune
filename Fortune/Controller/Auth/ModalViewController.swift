@@ -10,13 +10,10 @@ class ModalViewController: UIViewController {
     let eye = UIImage(systemName: "eye")?
         .withTintColor(.lightGray,
                        renderingMode: .alwaysOriginal)
-    
     let slashEye = UIImage(systemName: "eye.slash")?
         .withTintColor(.lightGray,
                        renderingMode: .alwaysOriginal)
 
-
-    
     @IBOutlet weak var userNameTextField: UITextField!
     @IBOutlet weak var mailTextField: UITextField! //{
     @IBOutlet weak var passwordTextField: UITextField!
@@ -29,7 +26,6 @@ class ModalViewController: UIViewController {
         if self.parent != nil {
             addblurEffect()
         }
-
     }
     
     func addblurEffect() {
@@ -42,7 +38,6 @@ class ModalViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.signup = SignUp()
         mailTextField.delegate = self
         passwordTextField.delegate = self
 //        configureObserver()

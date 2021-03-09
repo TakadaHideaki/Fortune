@@ -57,8 +57,8 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kHP-BD-i8c">
                                                 <rect key="frame" x="20" y="20" width="70" height="70"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.crop.circle.badge.plus" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="r1f-7p-p52">
-                                                        <rect key="frame" x="-1.5" y="0.0" width="71.5" height="69.5"/>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="r1f-7p-p52">
+                                                        <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <gestureRecognizers/>
@@ -79,6 +79,13 @@
                                                     <constraint firstAttribute="height" constant="70" id="dfp-kq-jo1"/>
                                                 </constraints>
                                             </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XZh-oN-Kvy">
+                                                <rect key="frame" x="20" y="218" width="334" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="RegistBtnTap:" destination="PJP-0C-y6b" eventType="touchUpInside" id="NFO-wX-LdN"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <constraints>
                                             <constraint firstItem="Tgf-YT-eJj" firstAttribute="leading" secondItem="yDy-AK-uin" secondAttribute="leading" constant="10" id="0za-6W-aog"/>
@@ -86,9 +93,12 @@
                                             <constraint firstAttribute="trailing" secondItem="htP-lD-Ukr" secondAttribute="trailing" constant="15" id="65N-OP-lme"/>
                                             <constraint firstAttribute="trailing" secondItem="Tgf-YT-eJj" secondAttribute="trailing" constant="10" id="69d-mF-Bjm"/>
                                             <constraint firstAttribute="height" constant="1200" id="7F2-6F-MRl"/>
+                                            <constraint firstItem="XZh-oN-Kvy" firstAttribute="top" secondItem="Tgf-YT-eJj" secondAttribute="bottom" constant="27" id="8of-3N-3uF"/>
+                                            <constraint firstAttribute="trailing" secondItem="XZh-oN-Kvy" secondAttribute="trailing" constant="20" id="TMs-0C-RyD"/>
                                             <constraint firstItem="htP-lD-Ukr" firstAttribute="top" secondItem="kHP-BD-i8c" secondAttribute="bottom" constant="10" id="c1e-AD-tiw"/>
                                             <constraint firstItem="kHP-BD-i8c" firstAttribute="top" secondItem="yDy-AK-uin" secondAttribute="top" constant="20" id="h4U-ga-tcE"/>
                                             <constraint firstItem="Tgf-YT-eJj" firstAttribute="top" secondItem="htP-lD-Ukr" secondAttribute="bottom" constant="20" id="iPG-lr-hsI"/>
+                                            <constraint firstItem="XZh-oN-Kvy" firstAttribute="leading" secondItem="yDy-AK-uin" secondAttribute="leading" constant="20" id="rAi-n6-SJv"/>
                                             <constraint firstItem="htP-lD-Ukr" firstAttribute="leading" secondItem="yDy-AK-uin" secondAttribute="leading" constant="15" id="udg-Qd-ra9"/>
                                         </constraints>
                                     </view>
@@ -130,7 +140,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="person.crop.circle.badge.plus" catalog="system" width="128" height="113"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

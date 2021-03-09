@@ -20,6 +20,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        // Or "Admin"
 //        window!.rootViewController = UIStoryboard(name: "SignupVC", bundle: nil).instantiateInitialViewController()!
 //        window!.makeKeyAndVisible()
+      //firebase.auth().currentUser
+
+        
+        if Auth.auth().currentUser != nil {
+            log.debug("ログイン中")
+        } else {
+            log.debug("ログアウト中")
+        }
+        
+        
+        
+        
         return true
     }
 

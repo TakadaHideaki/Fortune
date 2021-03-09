@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		66666C3D20F50805E04B7C90 /* Pods_Fortune.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A16E3B479AB70BB5CAB42B6 /* Pods_Fortune.framework */; };
+		8C44C8EB25F50F5D000845EE /* FirebaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C44C8EA25F50F5D000845EE /* FirebaseModel.swift */; };
+		8C44C8EC25F50F5D000845EE /* FirebaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C44C8EA25F50F5D000845EE /* FirebaseModel.swift */; };
+		8C44C8ED25F50F5D000845EE /* FirebaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C44C8EA25F50F5D000845EE /* FirebaseModel.swift */; };
 		8C4A476725F2705500D340C3 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A476625F2705500D340C3 /* CustomTextField.swift */; };
 		8C4A476825F2705500D340C3 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A476625F2705500D340C3 /* CustomTextField.swift */; };
 		8C4A476925F2705500D340C3 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A476625F2705500D340C3 /* CustomTextField.swift */; };
@@ -26,6 +29,8 @@
 		8C4A479525F45B3A00D340C3 /* PlaceHolderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A479425F45B3A00D340C3 /* PlaceHolderTextView.swift */; };
 		8C4A479625F45B3A00D340C3 /* PlaceHolderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A479425F45B3A00D340C3 /* PlaceHolderTextView.swift */; };
 		8C4A479725F45B3A00D340C3 /* PlaceHolderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A479425F45B3A00D340C3 /* PlaceHolderTextView.swift */; };
+		8C4A47EB25F4A86D00D340C3 /* DefaultBtnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A47E925F4A86D00D340C3 /* DefaultBtnViewController.swift */; };
+		8C4A47EC25F4A86D00D340C3 /* DefaultBtnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C4A47EA25F4A86D00D340C3 /* DefaultBtnViewController.xib */; };
 		8C4ABDC325E5FC1600F74043 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4ABDC225E5FC1600F74043 /* SignupVC.swift */; };
 		8C4ABDC425E5FC1600F74043 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4ABDC225E5FC1600F74043 /* SignupVC.swift */; };
 		8C4ABDC525E5FC1600F74043 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4ABDC225E5FC1600F74043 /* SignupVC.swift */; };
@@ -104,6 +109,7 @@
 		7B79E2F9F67624C18A1B3C96 /* Pods_Fortune_FortuneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fortune_FortuneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C3478D425E6A5EF0086DDDB /* FortuneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortuneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C3478D525E6A5EF0086DDDB /* FortuneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortuneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C44C8EA25F50F5D000845EE /* FirebaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseModel.swift; sourceTree = "<group>"; };
 		8C4A475D25F0E3E100D340C3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		8C4A476125F0E3E400D340C3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		8C4A476625F2705500D340C3 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
@@ -112,6 +118,8 @@
 		8C4A478625F37ACC00D340C3 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		8C4A478D25F38A6A00D340C3 /* RoundBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
 		8C4A479425F45B3A00D340C3 /* PlaceHolderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolderTextView.swift; sourceTree = "<group>"; };
+		8C4A47E925F4A86D00D340C3 /* DefaultBtnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultBtnViewController.swift; sourceTree = "<group>"; };
+		8C4A47EA25F4A86D00D340C3 /* DefaultBtnViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DefaultBtnViewController.xib; sourceTree = "<group>"; };
 		8C4ABD8625E54C1900F74043 /* Fortune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fortune.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4ABDC225E5FC1600F74043 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
 		8C4ABDCC25E5FC3800F74043 /* Signup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Signup.storyboard; sourceTree = "<group>"; };
@@ -184,16 +192,25 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		8C4A476525F2701400D340C3 /* Veiw */ = {
+		8C44C8E925F50BC2000845EE /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				8C44C8EA25F50F5D000845EE /* FirebaseModel.swift */,
+			);
+			name = Firebase;
+			sourceTree = "<group>";
+		};
+		8C44C8F625F647C9000845EE /* Components */ = {
 			isa = PBXGroup;
 			children = (
 				8C4A476625F2705500D340C3 /* CustomTextField.swift */,
 				8C4A478625F37ACC00D340C3 /* CustomView.swift */,
 				8C4A478D25F38A6A00D340C3 /* RoundBtn.swift */,
 				8C4A479425F45B3A00D340C3 /* PlaceHolderTextView.swift */,
+				8C4A47E925F4A86D00D340C3 /* DefaultBtnViewController.swift */,
+				8C4A47EA25F4A86D00D340C3 /* DefaultBtnViewController.xib */,
 			);
-			name = Veiw;
-			path = Controller;
+			path = Components;
 			sourceTree = "<group>";
 		};
 		8C4A477125F323B900D340C3 /* Profile */ = {
@@ -238,6 +255,7 @@
 		8C79757825E24253001AE54D /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				8C44C8E925F50BC2000845EE /* Firebase */,
 				8C88668D25EA289500A2168C /* Auth */,
 				8C8866A525EB259D00A2168C /* Payment */,
 			);
@@ -308,7 +326,7 @@
 				8CB0FDFC25E0AD6E00C771A2 /* AppDelegate.swift */,
 				8CB0FDFE25E0AD6E00C771A2 /* SceneDelegate.swift */,
 				8C79757625E24240001AE54D /* Controller */,
-				8C4A476525F2701400D340C3 /* Veiw */,
+				8C44C8F625F647C9000845EE /* Components */,
 				8C88663825EA096100A2168C /* Model */,
 				8C79757825E24253001AE54D /* Util */,
 				8C88662D25E9DF1800A2168C /* Ex */,
@@ -465,6 +483,7 @@
 				8C79753525E0BCC1001AE54D /* GoogleService-Info.plist in Resources */,
 				8CB0FE0625E0AD7000C771A2 /* Assets.xcassets in Resources */,
 				8C4ABDCD25E5FC3800F74043 /* Signup.storyboard in Resources */,
+				8C4A47EC25F4A86D00D340C3 /* DefaultBtnViewController.xib in Resources */,
 				8C4A477325F323D800D340C3 /* Profile.storyboard in Resources */,
 				8CB0FE0425E0AD6E00C771A2 /* Main.storyboard in Resources */,
 			);
@@ -640,6 +659,7 @@
 				8C4A478725F37ACC00D340C3 /* CustomView.swift in Sources */,
 				8C4A476725F2705500D340C3 /* CustomTextField.swift in Sources */,
 				8CE0294725E8B43200A7317D /* ModalViewController.swift in Sources */,
+				8C44C8EB25F50F5D000845EE /* FirebaseModel.swift in Sources */,
 				8CE0294025E8B30700A7317D /* CustomPresentationController.swift in Sources */,
 				8C4A478E25F38A6A00D340C3 /* RoundBtn.swift in Sources */,
 				8C4ABDC325E5FC1600F74043 /* SignupVC.swift in Sources */,
@@ -648,6 +668,7 @@
 				8C79753C25E23FFA001AE54D /* StripeCostomerRepository.swift in Sources */,
 				8C88668F25EA28B000A2168C /* SignUp.swift in Sources */,
 				8C88664B25EA1D0900A2168C /* Alert.swift in Sources */,
+				8C4A47EB25F4A86D00D340C3 /* DefaultBtnViewController.swift in Sources */,
 				8C88669F25EA84A700A2168C /* Ex.swift in Sources */,
 				8CB0FDFD25E0AD6E00C771A2 /* AppDelegate.swift in Sources */,
 				8CB0FDFF25E0AD6E00C771A2 /* SceneDelegate.swift in Sources */,
@@ -661,6 +682,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C44C8EC25F50F5D000845EE /* FirebaseModel.swift in Sources */,
 				8C4A478825F37ACC00D340C3 /* CustomView.swift in Sources */,
 				8C4A476825F2705500D340C3 /* CustomTextField.swift in Sources */,
 				8C79753D25E23FFA001AE54D /* StripeCostomerRepository.swift in Sources */,
@@ -685,6 +707,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C44C8ED25F50F5D000845EE /* FirebaseModel.swift in Sources */,
 				8C4A478925F37ACC00D340C3 /* CustomView.swift in Sources */,
 				8C4A476925F2705500D340C3 /* CustomTextField.swift in Sources */,
 				8C79753E25E23FFA001AE54D /* StripeCostomerRepository.swift in Sources */,
