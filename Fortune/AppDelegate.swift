@@ -3,6 +3,7 @@ import Firebase
 import GoogleSignIn
 import Stripe
 
+
 let stripePublicKey = "pk_test_51INAFRCUTuKKKoWWsqqDlJ2uRD5OUHy8VRcDGq7uNLSjF0iXvrVDUXOyke2WgXjkEaI6A3w3aavKEIaFeFyuYWAT00yGPCRGUP"
 
 @main
@@ -23,11 +24,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       //firebase.auth().currentUser
 
         
-        if Auth.auth().currentUser != nil {
-            log.debug("ログイン中")
-        } else {
-            log.debug("ログアウト中")
-        }
+//        if Auth.auth().currentUser != nil {
+//            log.debug("ログイン中")
+//        } else {
+//            log.debug("ログアウト中")
+//        }
+        
+        UserDefaults.standard.register(defaults: [Constants.signup : false,
+                                                  Constants.login: false])
+
+        
         
         
         

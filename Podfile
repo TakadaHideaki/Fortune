@@ -18,6 +18,7 @@ pod 'Stripe'
 pod 'BulletinBoard'
 pod 'XCGLogger', '~> 7.0.0'
 pod 'R.swift'
+pod 'Validator'
 
   target 'FortuneTests' do
     inherit! :search_paths
