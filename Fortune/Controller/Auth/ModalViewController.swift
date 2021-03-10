@@ -63,13 +63,15 @@ class ModalViewController: UIViewController {
 //              let e = mailTextField.text,
 //              let p = passwordTextField.text else {return}
 //
-//        self.signup?.signUp(email: e, pass: p, name: un, failure: { (error) in
+//        self.signup?.signUp(email: e, pass: p, name: un , failure: { (error) in
 //            self.alert(title: "エラー", msg: error, action: "OK")
 //        }) {
 //            log.debug("Auth_All_OK")
 //            let presentVC = self.presentingViewController as! SignupVC
 //
 //            presentVC.userName = un
+        
+        //        self.signup?.signUp(email: e, pass: p, name: un)
         parent?.view.removeFromSuperview()
             self.dismiss(animated: true, completion: nil)
 //        }
@@ -124,6 +126,19 @@ extension ModalViewController: UITextFieldDelegate {
         textField.resignFirstResponder()
         return true
     }
+    
+}
+
+extension ModalViewController: SignupDelegate {
+    func result(result: SignupResult) {
+        switch result {
+        case .success:
+            self.dismiss(animated: true, completion: nil)
+        case .failure(let i):
+            alert(title: "Error", msg: i, actionTitle: "ok")
+        }
+    }
+    
     
 }
 

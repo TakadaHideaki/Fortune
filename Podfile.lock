@@ -420,6 +420,7 @@ PODS:
   - Stripe (21.3.0):
     - Stripe/Stripe3DS2 (= 21.3.0)
   - Stripe/Stripe3DS2 (21.3.0)
+  - Validator (3.2.1)
   - XCGLogger (7.0.1):
     - XCGLogger/Core (= 7.0.1)
   - XCGLogger/Core (7.0.1):
@@ -436,6 +437,7 @@ DEPENDENCIES:
   - GoogleSignIn
   - R.swift
   - Stripe
+  - Validator
   - XCGLogger (~> 7.0.0)
 
 SPEC REPOS:
@@ -473,6 +475,7 @@ SPEC REPOS:
     - R.swift.Library
     - SDWebImage
     - Stripe
+    - Validator
     - XCGLogger
 
 SPEC CHECKSUMS:
@@ -509,8 +512,9 @@ SPEC CHECKSUMS:
   R.swift.Library: 0fc583cb55a99e28901299cc451614cad1161962
   SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
   Stripe: 1edcfa3ae759524b3901165d84411624ab420add
+  Validator: 80a6f567220c962dfd2d9928ae98a8c1d164f6f4
   XCGLogger: 1943831ef907df55108b0b18657953f868de973b
 
-PODFILE CHECKSUM: 8c8ec3aa3f1e0b0e4c5a808063a5ffd8b336e99e
+PODFILE CHECKSUM: d958ac5d79ae23aac49c79c6f1fc1dd444d7fc95
 
 COCOAPODS: 1.10.1
