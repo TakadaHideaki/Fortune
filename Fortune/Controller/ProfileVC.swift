@@ -56,9 +56,10 @@ class ProfileVC: UIViewController {
         } else {
             image = profireImage
         }
+        firebaseModel = FirebaseModel()
         
-        firebaseModel = FirebaseModel(displayName: displayName,
-                                      icon: image)
+       //(displayName: displayName,
+                                      //icon: image)
         firebaseModel?.uploadToStorege()
         
     }
@@ -81,7 +82,7 @@ extension ProfileVC: UITextViewDelegate {
 
 extension ProfileVC: FirebaseModelDelegate {
     func failure(result: String?) {
-        alert(title: "エラー", msg: result)
+        alert(title: "エラー", msg: result!, actionTitle: "String")
     }
     
     func success() {

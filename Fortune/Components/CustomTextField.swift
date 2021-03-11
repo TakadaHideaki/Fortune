@@ -1,24 +1,6 @@
 import UIKit
 
-enum Icon {
-    case user
-    case meail
-    case passWord
-    
-    var icon: UIImage? {
-        
-        let user = "person.crop.circle"
-        let mail = "envelope"
-        let pass = "lock"
-        
-        switch self {
-        case .user: return UIImage(systemName: user)!
-        case .meail: return UIImage(systemName: mail)!
-        case .passWord: return UIImage(systemName: pass)!
-        }
-    
-    }
-}
+
 
 class CustomTextField {
     
