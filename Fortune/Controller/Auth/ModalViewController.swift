@@ -1,22 +1,18 @@
 import UIKit
 import Firebase
+import Validator
 
 class ModalViewController: UIViewController {
     
-    var signup: SignUp?
-    var customTextField: CustomTextField?
-    var securityBtnClick = true
-    var securityButton = UIButton(type: .custom)
-    let eye = UIImage(systemName: "eye")?
-        .withTintColor(.lightGray,
-                       renderingMode: .alwaysOriginal)
-    let slashEye = UIImage(systemName: "eye.slash")?
-        .withTintColor(.lightGray,
-                       renderingMode: .alwaysOriginal)
-
     @IBOutlet weak var userNameTextField: UITextField!
-    @IBOutlet weak var mailTextField: UITextField! //{
+    @IBOutlet weak var mailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    
+    var signup: SignUp?
+    private var customTF: CustomTextField?
+    private var securityBtnClick = true
+    private var securityButton = UIButton(type: .custom)
+    private var validation: Validation?
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -24,11 +20,11 @@ class ModalViewController: UIViewController {
         passwordTextField.text = ""
         
         if self.parent != nil {
-            addblurEffect()
+            addBlurEffect()
         }
     }
     
-    func addblurEffect() {
+    func addBlurEffect() {
         let blurEffect = UIBlurEffect(style: .regular)
         let visualEffectView = UIVisualEffectView(effect: blurEffect)
         visualEffectView.frame = self.view.frame
@@ -41,19 +37,26 @@ class ModalViewController: UIViewController {
         mailTextField.delegate = self
         passwordTextField.delegate = self
 //        configureObserver()
-        mailTextField.becomeFirstResponder()
+        userNameTextField.becomeFirstResponder()
         
-        customTextField = CustomTextField()
-        setInitialUI()
-        addPasswordEyeButton(textField: passwordTextField)
-
+        initTF()
     }
-    func setInitialUI() {
-        passwordTextField.isSecureTextEntry = true
-        customTextField?.textFieldIconSet(textField: userNameTextField, image: Icon.user)
-        customTextField?.textFieldIconSet(textField: mailTextField, image: Icon.meail)
-        customTextField?.textFieldIconSet(textField: passwordTextField, image: Icon.passWord)
         
+     private func initTF() {
+        customTF = CustomTextField()
+        //textField左にアイコン設置
+        customTF?.textFieldIconSet(textField: userNameTextField, image: Icon.user)
+        customTF?.textFieldIconSet(textField: mailTextField, image: Icon.meail)
+        customTF?.textFieldIconSet(textField: passwordTextField, image: Icon.passWord)
+        //passwordを伏字化
+        passwordTextField.isSecureTextEntry = true
+        //伏せ字Btn設置
+        addSecurityBtn(textField: passwordTextField)
+        //validationCheck
+        validation = Validation(name_TextField: userNameTextField,
+                                email_TextField: mailTextField,
+                                password_TextField: passwordTextField)
+        validation?.validationCheck()
     }
     
     
@@ -80,17 +83,12 @@ class ModalViewController: UIViewController {
 
 extension ModalViewController {
     
- 
-
-    
     //add securityButton on the Right
-    func addPasswordEyeButton(textField: UITextField) {
+    func addSecurityBtn(textField: UITextField) {
         
-        
-
         let button: UIButton = {
             let button = UIButton()
-            button.setImage(slashEye, for: .normal)
+            button.setImage(Icon.slashEye.icon, for: .normal)
             button.imageEdgeInsets = UIEdgeInsets(top: 5, left: -16, bottom: 5, right: 0)
             let textFieldWidth = textField.frame.size.width
             button.frame = CGRect(x: textFieldWidth - 25, y: 5, width: 30, height: 30)
@@ -109,11 +107,8 @@ extension ModalViewController {
     @objc func buttonEvent(_ sender: UIButton) {
         securityBtnClick.toggle()
         passwordTextField.isSecureTextEntry.toggle()
-        let securityBtnImage = securityBtnClick ? slashEye: eye
+        let securityBtnImage = securityBtnClick ? Icon.slashEye.icon: Icon.eye.icon
         securityButton.setImage(securityBtnImage, for: .normal)
-
-
-
     }
     
 
@@ -126,7 +121,6 @@ extension ModalViewController: UITextFieldDelegate {
         textField.resignFirstResponder()
         return true
     }
-    
 }
 
 extension ModalViewController: SignupDelegate {

@@ -26,6 +26,12 @@
 		8C44C91F25F87604000845EE /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C44C91E25F87604000845EE /* LoginModel.swift */; };
 		8C44C92025F87604000845EE /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C44C91E25F87604000845EE /* LoginModel.swift */; };
 		8C44C92125F87604000845EE /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C44C91E25F87604000845EE /* LoginModel.swift */; };
+		8C44C98C25F8DB66000845EE /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C44C98B25F8DB66000845EE /* Validation.swift */; };
+		8C44C98D25F8DB66000845EE /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C44C98B25F8DB66000845EE /* Validation.swift */; };
+		8C44C98E25F8DB66000845EE /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C44C98B25F8DB66000845EE /* Validation.swift */; };
+		8C44C99325FA4636000845EE /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C44C99225FA4635000845EE /* UIImage.swift */; };
+		8C44C99425FA4636000845EE /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C44C99225FA4635000845EE /* UIImage.swift */; };
+		8C44C99525FA4636000845EE /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C44C99225FA4635000845EE /* UIImage.swift */; };
 		8C4A476725F2705500D340C3 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A476625F2705500D340C3 /* CustomTextField.swift */; };
 		8C4A476825F2705500D340C3 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A476625F2705500D340C3 /* CustomTextField.swift */; };
 		8C4A476925F2705500D340C3 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A476625F2705500D340C3 /* CustomTextField.swift */; };
@@ -130,6 +136,8 @@
 		8C44C90D25F7903D000845EE /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		8C44C91725F79398000845EE /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		8C44C91E25F87604000845EE /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		8C44C98B25F8DB66000845EE /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		8C44C99225FA4635000845EE /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		8C4A475D25F0E3E100D340C3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		8C4A476125F0E3E400D340C3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		8C4A476625F2705500D340C3 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
@@ -307,6 +315,7 @@
 				8C88664A25EA1D0900A2168C /* Alert.swift */,
 				8C88669E25EA84A700A2168C /* Ex.swift */,
 				8C44C8F725F78DDF000845EE /* Constants.swift */,
+				8C44C99225FA4635000845EE /* UIImage.swift */,
 			);
 			path = Ex;
 			sourceTree = "<group>";
@@ -316,6 +325,7 @@
 			children = (
 				8C88663925EA09AB00A2168C /* AuthModel.swift */,
 				8C44C91E25F87604000845EE /* LoginModel.swift */,
+				8C44C98B25F8DB66000845EE /* Validation.swift */,
 			);
 			name = Model;
 			path = Controller;
@@ -702,8 +712,10 @@
 				8C4ABDC325E5FC1600F74043 /* SignupVC.swift in Sources */,
 				8C4A479525F45B3A00D340C3 /* PlaceHolderTextView.swift in Sources */,
 				8C88662F25E9E06900A2168C /* ScrollKeyboard.swift in Sources */,
+				8C44C99325FA4636000845EE /* UIImage.swift in Sources */,
 				8C79753C25E23FFA001AE54D /* StripeCostomerRepository.swift in Sources */,
 				8C44C8F825F78DDF000845EE /* Constants.swift in Sources */,
+				8C44C98C25F8DB66000845EE /* Validation.swift in Sources */,
 				8C44C91F25F87604000845EE /* LoginModel.swift in Sources */,
 				8C88668F25EA28B000A2168C /* SignUp.swift in Sources */,
 				8C88664B25EA1D0900A2168C /* Alert.swift in Sources */,
@@ -731,9 +743,11 @@
 				8C79753D25E23FFA001AE54D /* StripeCostomerRepository.swift in Sources */,
 				8C4A477E25F323FA00D340C3 /* ProfileVC.swift in Sources */,
 				8C4ABDC425E5FC1600F74043 /* SignupVC.swift in Sources */,
+				8C44C99425FA4636000845EE /* UIImage.swift in Sources */,
 				8C4A478F25F38A6A00D340C3 /* RoundBtn.swift in Sources */,
 				8CE0294125E8B30700A7317D /* CustomPresentationController.swift in Sources */,
 				8C7975C425E50048001AE54D /* PaymentVC.swift in Sources */,
+				8C44C98D25F8DB66000845EE /* Validation.swift in Sources */,
 				8CB0FE1425E0AD7000C771A2 /* FortuneTests.swift in Sources */,
 				8C7975BA25E24E14001AE54D /* StripeAPIClient.swift in Sources */,
 				8CE0294825E8B43200A7317D /* ModalViewController.swift in Sources */,
@@ -760,9 +774,11 @@
 				8C79753E25E23FFA001AE54D /* StripeCostomerRepository.swift in Sources */,
 				8C4A477F25F323FA00D340C3 /* ProfileVC.swift in Sources */,
 				8C4ABDC525E5FC1600F74043 /* SignupVC.swift in Sources */,
+				8C44C99525FA4636000845EE /* UIImage.swift in Sources */,
 				8C4A479025F38A6A00D340C3 /* RoundBtn.swift in Sources */,
 				8CE0294225E8B30700A7317D /* CustomPresentationController.swift in Sources */,
 				8C7975C525E50048001AE54D /* PaymentVC.swift in Sources */,
+				8C44C98E25F8DB66000845EE /* Validation.swift in Sources */,
 				8CB0FE1F25E0AD7000C771A2 /* FortuneUITests.swift in Sources */,
 				8C7975BB25E24E14001AE54D /* StripeAPIClient.swift in Sources */,
 				8CE0294925E8B43200A7317D /* ModalViewController.swift in Sources */,
