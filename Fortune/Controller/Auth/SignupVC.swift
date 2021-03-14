@@ -38,6 +38,11 @@ class SignupVC: UIViewController {
         present(modalVC, animated: true, completion: nil)
         
         
+        
+        
+        
+        
+        
 //        let customerId = "firestoreから取得"
 //        let customerContext = STPCustomerContext(keyProvider: StripeProvider(customerId: customerId))
 //        paymentContext = STPPaymentContext(customerContext: customerContext)
@@ -46,6 +51,17 @@ class SignupVC: UIViewController {
 //        paymentContext!.paymentAmount = 5000
 //        paymentContext!.presentPaymentOptionsViewController()
     }
+    
+    
+    @IBAction func mypage(_ sender: Any) {
+        
+        let sb = UIStoryboard(name: "MyPage", bundle: nil)
+        let vc = sb.instantiateViewController(withIdentifier: "MyPageVC")
+        let nv = UINavigationController(rootViewController: vc)
+        nv.modalPresentationStyle = .fullScreen
+        present(nv, animated: true, completion: nil)
+    }
+    
     
     
 }
