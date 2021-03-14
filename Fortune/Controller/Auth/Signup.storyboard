@@ -43,6 +43,14 @@
                                     <action selector="stripeBtnTapped:" destination="G9y-r9-9Xp" eventType="touchUpInside" id="O1K-fH-XPA"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n9T-RY-fs7">
+                                <rect key="frame" x="161" y="596" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="mypage:" destination="G9y-r9-9Xp" eventType="touchUpInside" id="bf6-bk-pCk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gIY-F5-1GH"/>
                         <color key="backgroundColor" red="0.96862745100000003" green="0.88235294119999996" blue="0.043137254899999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

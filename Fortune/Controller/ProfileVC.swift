@@ -1,17 +1,16 @@
 import UIKit
 import Firebase
+import FirebaseAuth
 
 class ProfileVC: UIViewController {
     
-    var firebaseModel: FirebaseModel?
+    var model: ProfileModel?
+//    private var uid: User?.uid?
     @IBOutlet weak var profileImageView: UIImageView!
     @IBOutlet weak var profileBackGroundView: UIView!
     @IBOutlet weak var userNameTF: UITextField!
     
-    
-    let profireImage = UIImage(systemName: "person.crop.circle.badge.plus")?
-        .withTintColor(.lightGray,
-                       renderingMode: .alwaysOriginal)
+    private var validation: Validation?
     
     
     override func viewDidLoad() {
@@ -26,7 +25,7 @@ class ProfileVC: UIViewController {
     
     private func initialUI() {
         
-        profileImageView.image = profireImage
+        profileImageView.image = Icon.profireImage.icon
         profileBackGroundView.layer.cornerRadius = profileBackGroundView.layer.frame.size.width / 2
         
         profileBackGroundView.layer.shadowOffset = CGSize(width: 5, height: 5)
@@ -51,16 +50,14 @@ class ProfileVC: UIViewController {
         log.debug("regist　Tap")
         let displayName = userNameTF.text ?? "ゲスト"
         var image: UIImage?
-        if profileImageView.image == profireImage {
+        if profileImageView.image == Icon.profireImage.icon {
             image = nil
         } else {
-            image = profireImage
+            image = profileImageView.image
         }
-        firebaseModel = FirebaseModel()
-        
-       //(displayName: displayName,
-                                      //icon: image)
-        firebaseModel?.uploadToStorege()
+        model = ProfileModel(displayName: displayName,
+                             icon: image, user: nil)
+        model?.uploadToStorege()
         
     }
     
@@ -80,7 +77,7 @@ extension ProfileVC: UITextViewDelegate {
 }
 
 
-extension ProfileVC: FirebaseModelDelegate {
+extension ProfileVC: ProfileModelDelegate {
     func failure(result: String?) {
         alert(title: "エラー", msg: result!, actionTitle: "String")
     }

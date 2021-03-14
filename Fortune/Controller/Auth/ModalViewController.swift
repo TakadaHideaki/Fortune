@@ -45,7 +45,7 @@ class ModalViewController: UIViewController {
      private func initTF() {
         customTF = CustomTextField()
         //textField左にアイコン設置
-        customTF?.textFieldIconSet(textField: userNameTextField, image: Icon.user)
+        customTF?.textFieldIconSet(textField: userNameTextField, image: Icon.paerson)
         customTF?.textFieldIconSet(textField: mailTextField, image: Icon.meail)
         customTF?.textFieldIconSet(textField: passwordTextField, image: Icon.passWord)
         //passwordを伏字化
