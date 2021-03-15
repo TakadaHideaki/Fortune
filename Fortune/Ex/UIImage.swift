@@ -22,7 +22,9 @@ enum Icon {
         switch self {
         case .paerson:
             return
-                image.imageCustom(image: UIImage(systemName: person)!)
+//                image.imageCustom(image: UIImage(systemName: person)!)
+                UIImage(systemName: person)!
+
         case .personPlus:
             return
                 UIImage(systemName: personPlus)!

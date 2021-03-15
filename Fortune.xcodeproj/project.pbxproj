@@ -79,6 +79,16 @@
 		8C67F3A725FDB41600B7BCC9 /* MyPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C67F3A625FDB41600B7BCC9 /* MyPageModel.swift */; };
 		8C67F3A825FDB41600B7BCC9 /* MyPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C67F3A625FDB41600B7BCC9 /* MyPageModel.swift */; };
 		8C67F3A925FDB41600B7BCC9 /* MyPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C67F3A625FDB41600B7BCC9 /* MyPageModel.swift */; };
+		8C67F3B825FE48F000B7BCC9 /* LogOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C67F3B725FE48F000B7BCC9 /* LogOut.swift */; };
+		8C67F3B925FE48F000B7BCC9 /* LogOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C67F3B725FE48F000B7BCC9 /* LogOut.swift */; };
+		8C67F3BA25FE48F000B7BCC9 /* LogOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C67F3B725FE48F000B7BCC9 /* LogOut.swift */; };
+		8C67F3C025FE537900B7BCC9 /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C67F3BF25FE537900B7BCC9 /* Mail.swift */; };
+		8C67F3C125FE537900B7BCC9 /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C67F3BF25FE537900B7BCC9 /* Mail.swift */; };
+		8C67F3C225FE537900B7BCC9 /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C67F3BF25FE537900B7BCC9 /* Mail.swift */; };
+		8C67F3CA25FF5F2700B7BCC9 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C67F3C925FF5F2700B7BCC9 /* MessageUI.framework */; };
+		8C67F3CC25FF67A800B7BCC9 /* SignOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C67F3CB25FF67A800B7BCC9 /* SignOut.swift */; };
+		8C67F3CD25FF67A800B7BCC9 /* SignOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C67F3CB25FF67A800B7BCC9 /* SignOut.swift */; };
+		8C67F3CE25FF67A800B7BCC9 /* SignOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C67F3CB25FF67A800B7BCC9 /* SignOut.swift */; };
 		8C79753525E0BCC1001AE54D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C79753425E0BCC1001AE54D /* GoogleService-Info.plist */; };
 		8C79753625E0BCC1001AE54D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C79753425E0BCC1001AE54D /* GoogleService-Info.plist */; };
 		8C79753725E0BCC1001AE54D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C79753425E0BCC1001AE54D /* GoogleService-Info.plist */; };
@@ -179,6 +189,10 @@
 		8C67F39825FCFE2B00B7BCC9 /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 		8C67F39F25FCFE9600B7BCC9 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
 		8C67F3A625FDB41600B7BCC9 /* MyPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageModel.swift; sourceTree = "<group>"; };
+		8C67F3B725FE48F000B7BCC9 /* LogOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOut.swift; sourceTree = "<group>"; };
+		8C67F3BF25FE537900B7BCC9 /* Mail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mail.swift; sourceTree = "<group>"; };
+		8C67F3C925FF5F2700B7BCC9 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		8C67F3CB25FF67A800B7BCC9 /* SignOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignOut.swift; sourceTree = "<group>"; };
 		8C79753425E0BCC1001AE54D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8C79753B25E23FFA001AE54D /* StripeCostomerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripeCostomerRepository.swift; sourceTree = "<group>"; };
 		8C7975B825E24E14001AE54D /* StripeAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripeAPIClient.swift; sourceTree = "<group>"; };
@@ -212,6 +226,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C67F3CA25FF5F2700B7BCC9 /* MessageUI.framework in Frameworks */,
 				66666C3D20F50805E04B7C90 /* Pods_Fortune.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +339,14 @@
 			name = MaPageCell;
 			sourceTree = "<group>";
 		};
+		8C67F3BE25FE533D00B7BCC9 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				8C67F3BF25FE537900B7BCC9 /* Mail.swift */,
+			);
+			name = NetWork;
+			sourceTree = "<group>";
+		};
 		8C79757625E24240001AE54D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -337,6 +360,7 @@
 		8C79757825E24253001AE54D /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				8C67F3BE25FE533D00B7BCC9 /* NetWork */,
 				8C88668D25EA289500A2168C /* Auth */,
 				8C8866A525EB259D00A2168C /* Payment */,
 			);
@@ -381,6 +405,8 @@
 				8C88668E25EA28B000A2168C /* SignUp.swift */,
 				8C44C91725F79398000845EE /* Login.swift */,
 				8C44C8EA25F50F5D000845EE /* ProfileModel.swift */,
+				8C67F3B725FE48F000B7BCC9 /* LogOut.swift */,
+				8C67F3CB25FF67A800B7BCC9 /* SignOut.swift */,
 			);
 			name = Auth;
 			sourceTree = "<group>";
@@ -448,6 +474,7 @@
 		941DEA2356F403306FC40211 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8C67F3C925FF5F2700B7BCC9 /* MessageUI.framework */,
 				1A16E3B479AB70BB5CAB42B6 /* Pods_Fortune.framework */,
 				7B79E2F9F67624C18A1B3C96 /* Pods_Fortune_FortuneUITests.framework */,
 				BC58D6F5E2AA847E1B95AEA6 /* Pods_FortuneTests.framework */,
@@ -752,7 +779,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C67F3C025FE537900B7BCC9 /* Mail.swift in Sources */,
 				8C44C90425F78FF2000845EE /* LoginVC.swift in Sources */,
+				8C67F3B825FE48F000B7BCC9 /* LogOut.swift in Sources */,
 				8C4A477D25F323FA00D340C3 /* ProfileVC.swift in Sources */,
 				8C4A478725F37ACC00D340C3 /* CustomView.swift in Sources */,
 				8C4A476725F2705500D340C3 /* CustomTextField.swift in Sources */,
@@ -777,6 +806,7 @@
 				8C4A47EB25F4A86D00D340C3 /* DefaultBtnViewController.swift in Sources */,
 				8C88669F25EA84A700A2168C /* Ex.swift in Sources */,
 				8C44C91825F79398000845EE /* Login.swift in Sources */,
+				8C67F3CC25FF67A800B7BCC9 /* SignOut.swift in Sources */,
 				8C67F3A025FCFE9600B7BCC9 /* CustomNavigationBar.swift in Sources */,
 				8CB0FDFD25E0AD6E00C771A2 /* AppDelegate.swift in Sources */,
 				8CB0FDFF25E0AD6E00C771A2 /* SceneDelegate.swift in Sources */,
@@ -800,11 +830,14 @@
 				8C79753D25E23FFA001AE54D /* StripeCostomerRepository.swift in Sources */,
 				8C4A477E25F323FA00D340C3 /* ProfileVC.swift in Sources */,
 				8C4ABDC425E5FC1600F74043 /* SignupVC.swift in Sources */,
+				8C67F3C125FE537900B7BCC9 /* Mail.swift in Sources */,
 				8C44C99425FA4636000845EE /* UIImage.swift in Sources */,
 				8C4A478F25F38A6A00D340C3 /* RoundBtn.swift in Sources */,
 				8CE0294125E8B30700A7317D /* CustomPresentationController.swift in Sources */,
 				8C67F39A25FCFE2C00B7BCC9 /* CustomNavigationController.swift in Sources */,
 				8C67F32F25FB532400B7BCC9 /* MyPageVC.swift in Sources */,
+				8C67F3B925FE48F000B7BCC9 /* LogOut.swift in Sources */,
+				8C67F3CD25FF67A800B7BCC9 /* SignOut.swift in Sources */,
 				8C7975C425E50048001AE54D /* PaymentVC.swift in Sources */,
 				8C44C98D25F8DB66000845EE /* Validation.swift in Sources */,
 				8CB0FE1425E0AD7000C771A2 /* FortuneTests.swift in Sources */,
@@ -836,11 +869,14 @@
 				8C79753E25E23FFA001AE54D /* StripeCostomerRepository.swift in Sources */,
 				8C4A477F25F323FA00D340C3 /* ProfileVC.swift in Sources */,
 				8C4ABDC525E5FC1600F74043 /* SignupVC.swift in Sources */,
+				8C67F3C225FE537900B7BCC9 /* Mail.swift in Sources */,
 				8C44C99525FA4636000845EE /* UIImage.swift in Sources */,
 				8C4A479025F38A6A00D340C3 /* RoundBtn.swift in Sources */,
 				8CE0294225E8B30700A7317D /* CustomPresentationController.swift in Sources */,
 				8C67F39B25FCFE2C00B7BCC9 /* CustomNavigationController.swift in Sources */,
 				8C67F33025FB532400B7BCC9 /* MyPageVC.swift in Sources */,
+				8C67F3BA25FE48F000B7BCC9 /* LogOut.swift in Sources */,
+				8C67F3CE25FF67A800B7BCC9 /* SignOut.swift in Sources */,
 				8C7975C525E50048001AE54D /* PaymentVC.swift in Sources */,
 				8C44C98E25F8DB66000845EE /* Validation.swift in Sources */,
 				8CB0FE1F25E0AD7000C771A2 /* FortuneUITests.swift in Sources */,
