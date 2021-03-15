@@ -79,7 +79,7 @@ extension ProfileVC: UITextViewDelegate {
 
 extension ProfileVC: ProfileModelDelegate {
     func failure(result: String?) {
-        alert(title: "エラー", msg: result!, actionTitle: "String")
+        alert(title: "エラー", msg: result!)
     }
     
     func success() {

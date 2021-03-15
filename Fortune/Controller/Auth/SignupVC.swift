@@ -14,7 +14,6 @@ class SignupVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
         
     @IBAction func signupTapped(_ sender: Any) {

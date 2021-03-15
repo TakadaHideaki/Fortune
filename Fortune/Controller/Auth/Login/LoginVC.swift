@@ -111,7 +111,7 @@ class LoginVC: UIViewController {
         case .success:
             self.dismiss(animated: true, completion: nil)
         case .failure(let i):
-            alert(title: "Error", msg: i, actionTitle: "ok")
+            alert(title: "Error", msg: i)
         }
     }
     
